@@ -34,5 +34,5 @@ export async function getConfig(directory) {
 
 function getSchema() {
   const require = createRequire(import.meta.url);
-  return require('../config/schema.json');
+  return require('./schema.json');
 }
